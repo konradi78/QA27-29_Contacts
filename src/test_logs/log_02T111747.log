@@ -1,0 +1,131 @@
+660  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 546030301
+667  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -1491433386
+668  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE AddContactTests.ensurePreconditions()[pri:0, instance:null] 1610206981
+669  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AddContactTests.ensurePreconditions()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+672  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+672  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AddContactTests.ensurePreconditions()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+672  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.setUp()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+672  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+680  [ForkJoinPool.commonPool-worker-5] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AddContactTests.ensurePreconditions()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+680  [ForkJoinPool.commonPool-worker-5] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AddContactTests.ensurePreconditions()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+682  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.setUp()[pri:0, instance:null] FROM NODE AddContactTests.ensurePreconditions()[pri:0, instance:null]
+682  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM NODE AddContactTests.ensurePreconditions()[pri:0, instance:null]
+682  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+682  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+683  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.setUp()[pri:0, instance:null]
+683  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+684  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               AddContactTests.ensurePreconditions()[pri:0, instance:null]
+684  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+695  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE AddContactTests.postCondition()[pri:0, instance:null] 1398949727
+695  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] -945073859
+696  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] ==> AddContactTests.postCondition()[pri:0, instance:null]
+696  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED AddContactTests.postCondition()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+696  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1028940973
+696  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR TestBase.tearDown()[pri:0, instance:null] ==> AddContactTests.postCondition()[pri:0, instance:null]
+696  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED AddContactTests.postCondition()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+696  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+696  [ForkJoinPool.commonPool-worker-5] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] ==> AddContactTests.postCondition()[pri:0, instance:null]
+697  [ForkJoinPool.commonPool-worker-5] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR TestBase.tearDown()[pri:0, instance:null] ==> AddContactTests.postCondition()[pri:0, instance:null]
+697  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED AddContactTests.postCondition()[pri:0, instance:null] FROM NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null]
+697  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED AddContactTests.postCondition()[pri:0, instance:null] FROM NODE TestBase.tearDown()[pri:0, instance:null]
+697  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+698  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+698  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               AddContactTests.postCondition()[pri:0, instance:null]
+698  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null]
+698  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.tearDown()[pri:0, instance:null]
+698  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+716  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 546030301
+716  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -1491433386
+716  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateAccountTests.ensurePrecondition()[pri:0, instance:null] 1697633120
+717  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CreateAccountTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+717  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+717  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CreateAccountTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+717  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.setUp()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+717  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+717  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CreateAccountTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+717  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CreateAccountTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+718  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.setUp()[pri:0, instance:null] FROM NODE CreateAccountTests.ensurePrecondition()[pri:0, instance:null]
+718  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM NODE CreateAccountTests.ensurePrecondition()[pri:0, instance:null]
+718  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+718  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+718  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.setUp()[pri:0, instance:null]
+718  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+718  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               CreateAccountTests.ensurePrecondition()[pri:0, instance:null]
+718  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+722  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] -945073859
+722  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1028940973
+722  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+724  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+724  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+724  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+737  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 546030301
+737  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -1491433386
+737  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+738  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+738  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+738  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+740  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] -945073859
+741  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1028940973
+741  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+741  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+741  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+741  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+754  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 546030301
+754  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.ensurePrecondition()[pri:0, instance:null] 786585544
+754  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+754  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+754  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+754  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.setUp()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+755  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -1491433386
+755  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+755  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+755  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+756  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.setUp()[pri:0, instance:null] FROM NODE LoginTests.ensurePrecondition()[pri:0, instance:null]
+756  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM NODE LoginTests.ensurePrecondition()[pri:0, instance:null]
+756  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+756  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+756  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.setUp()[pri:0, instance:null]
+756  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+756  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               LoginTests.ensurePrecondition()[pri:0, instance:null]
+756  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+759  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] -945073859
+759  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1028940973
+759  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+759  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+760  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+760  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+771  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE RemoveContactTests.ensurePrecondition()[pri:0, instance:null] 1476117241
+771  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR RemoveContactTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+771  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+772  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR RemoveContactTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+772  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.setUp()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+772  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 546030301
+772  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -1491433386
+772  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+772  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR RemoveContactTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+772  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR RemoveContactTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+772  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.setUp()[pri:0, instance:null] FROM NODE RemoveContactTests.ensurePrecondition()[pri:0, instance:null]
+772  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM NODE RemoveContactTests.ensurePrecondition()[pri:0, instance:null]
+773  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+773  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+773  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.setUp()[pri:0, instance:null]
+774  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+774  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               RemoveContactTests.ensurePrecondition()[pri:0, instance:null]
+774  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+776  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] -945073859
+776  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1028940973
+776  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+776  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+777  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+777  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+782  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE AddContactTests.addContactPositiveTest()[pri:0, instance:com.telrun.qa2729.contacts.tests.AddContactTests@17f41d9e] 799870062
+782  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE AddContactTests.addContactPositiveTestFromDataProvider(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.telrun.qa2729.contacts.tests.AddContactTests@17f41d9e] -1288184789
+782  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE AddContactTests.addContactPositiveTestFromCSV(com.telrun.qa2729.contacts.models.Contact)[pri:0, instance:com.telrun.qa2729.contacts.tests.AddContactTests@17f41d9e] -1441048330
+783  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateAccountTests.registrationNegativeTestWithInvalidEmail()[pri:0, instance:com.telrun.qa2729.contacts.tests.CreateAccountTests@7baf9423] -626468984
+784  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE HomePageTests.openHomePageTest()[pri:0, instance:com.telrun.qa2729.contacts.tests.HomePageTests@39b3d66c] 2053297959
+784  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.loginUserPositiveTest()[pri:0, instance:com.telrun.qa2729.contacts.tests.LoginTests@3e3a43f5] -1950485962
+784  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE RemoveContactTests.removeContactTest()[pri:0, instance:com.telrun.qa2729.contacts.tests.RemoveContactTests@4e96cc16] 1924993493
+784  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+785  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+785  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+785  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES

@@ -1,0 +1,35 @@
+978  [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml"
+1616 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 546030301
+1617 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.ensurePrecondition()[pri:0, instance:null] 786585544
+1618 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+1620 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+1620 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+1620 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.setUp()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+1621 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -1491433386
+1621 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1628 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+1628 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+1632 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.setUp()[pri:0, instance:null] FROM NODE LoginTests.ensurePrecondition()[pri:0, instance:null]
+1632 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM NODE LoginTests.ensurePrecondition()[pri:0, instance:null]
+1632 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1632 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1633 [main] DEBUG org.testng.internal.Graph - [Graph]               TestBase.setUp()[pri:0, instance:null]
+1633 [main] DEBUG org.testng.internal.Graph - [Graph]               TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+1633 [main] DEBUG org.testng.internal.Graph - [Graph]               LoginTests.ensurePrecondition()[pri:0, instance:null]
+1633 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1637 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] -945073859
+1637 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1028940973
+1637 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1638 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1638 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1638 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1646 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.loginUserNegativeTest()[pri:0, instance:com.telrun.qa2729.contacts.tests.LoginTests@491b9b8] 347135029
+1646 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1646 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1646 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1646 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1658 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+4557 [main] INFO  c.t.qa2729.contacts.tests.TestBase - Test start loginUserNegativeTest with data: []
+5636 [main] ERROR c.t.qa2729.contacts.tests.TestBase - FAILED: Test method loginUserNegativeTest Screenshot: C:\Users\Alex\Documents\GitHub\QA27-29_Contacts\screenshots\screen1659557821128.png

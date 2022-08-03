@@ -1,0 +1,35 @@
+795  [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml"
+1711 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 546030301
+1711 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.ensurePrecondition()[pri:0, instance:null] 786585544
+1715 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+1718 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+1718 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+1718 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.setUp()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+1718 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -1491433386
+1718 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1732 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+1732 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+1735 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.setUp()[pri:0, instance:null] FROM NODE LoginTests.ensurePrecondition()[pri:0, instance:null]
+1736 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM NODE LoginTests.ensurePrecondition()[pri:0, instance:null]
+1736 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1736 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1736 [main] DEBUG org.testng.internal.Graph - [Graph]               TestBase.setUp()[pri:0, instance:null]
+1736 [main] DEBUG org.testng.internal.Graph - [Graph]               TestBase.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+1736 [main] DEBUG org.testng.internal.Graph - [Graph]               LoginTests.ensurePrecondition()[pri:0, instance:null]
+1736 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1743 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest(org.testng.ITestResult)[pri:0, instance:null] -945073859
+1743 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1028940973
+1743 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1743 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1743 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1743 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1751 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.loginUserPositiveTest()[pri:0, instance:com.telrun.qa2729.contacts.tests.LoginTests@4d15107f] -1701265728
+1751 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1752 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1752 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1752 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1761 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+4557 [main] INFO  c.t.qa2729.contacts.tests.TestBase - Test start loginUserPositiveTest with data: []
+5479 [main] INFO  c.t.qa2729.contacts.tests.TestBase - PASSED: test method loginUserPositiveTest

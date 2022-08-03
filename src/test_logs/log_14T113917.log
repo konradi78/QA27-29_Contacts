@@ -1,0 +1,35 @@
+874  [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml"
+1887 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest()[pri:0, instance:null] 546030301
+1887 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.ensurePrecondition()[pri:0, instance:null] 786585544
+1890 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest()[pri:0, instance:null]
+1892 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.startTest()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+1892 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+1892 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.setUp()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+1892 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.setUp()[pri:0, instance:null] -1491433386
+1892 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1909 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest()[pri:0, instance:null]
+1909 [main] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR LoginTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase.setUp()[pri:0, instance:null]
+1912 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.setUp()[pri:0, instance:null] FROM NODE LoginTests.ensurePrecondition()[pri:0, instance:null]
+1913 [main] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.startTest()[pri:0, instance:null] FROM NODE LoginTests.ensurePrecondition()[pri:0, instance:null]
+1913 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1914 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1914 [main] DEBUG org.testng.internal.Graph - [Graph]               TestBase.setUp()[pri:0, instance:null]
+1915 [main] DEBUG org.testng.internal.Graph - [Graph]               TestBase.startTest()[pri:0, instance:null]
+1915 [main] DEBUG org.testng.internal.Graph - [Graph]               LoginTests.ensurePrecondition()[pri:0, instance:null]
+1915 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1927 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest()[pri:0, instance:null] -945073859
+1930 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1028940973
+1930 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1931 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1932 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1932 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1947 [main] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.loginUserPositiveTest()[pri:0, instance:com.telrun.qa2729.contacts.tests.LoginTests@1b1cfb87] 1755359688
+1947 [main] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+1948 [main] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+1948 [main] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+1948 [main] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+1961 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Alex\AppData\Local\JetBrains\IdeaIC2021.3\temp-testng-customsuite.xml
+
+5313 [main] INFO  c.t.qa2729.contacts.tests.TestBase - Test start
+6488 [main] INFO  c.t.qa2729.contacts.tests.TestBase - Test start
