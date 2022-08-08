@@ -29,4 +29,19 @@ task testUser(type:Test) {
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
     }
+
+
+
+}
+
+task newsmoketest(type:Test) {
+    useTestNG(){
+        suites 'src/test/resources/newsmoketest.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+
+
 }
